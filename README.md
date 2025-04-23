@@ -11,17 +11,17 @@
 
 ## Overview
 
-- Use ML to predict churn probabilities
-- Use LP to optimize which customers to retain under a fixed budget
-- Goal: Maximize retained revenue while staying within cost constraints
+- Used Machine Learning to predict churn probabilities
+- Use Linear Programming to optimize which customers to retain under a fixed budget
+- Goal: Maximize retained revenue while staying within cost constraints (budget)
 
 ---
 
 ## ML Model
 
-- Input: Preprocessed customer features (numerical + one-hot encoded categoricals)
+- Input: Preprocessed customer data
 - Output: Probability of churn (between 0 and 1)
-- Evaluation Metric: ROC AUC Score
+- Evaluation Metric: ROC AUC Score (to identify how effectively the model distinguishes "churn" vs "no churn")
 
 ---
 
