@@ -2,7 +2,7 @@
 
 - This is an end-to-end project that combines machine learning and optimization techniques to identify and retain high-risk churn customers while operating under budget constraints. Leveraging customer behavior data, it predicts churn risk and applies mathematical optimization to prioritize retention efforts that maximize business value.
 
-- This project was created as part of a hands-on learning series to explore how AI and decision science can work together to solve real-world business problems.
+- This project was created as part of a hands-on learning series to explore how Linear programming (optimization) is used to solve real-world business problems.
 
 - This project combines Machine Learning (ML) and Linear Programming (LP) to predict and reduce customer churn using the Telco Customer Churn dataset.
 
@@ -32,12 +32,6 @@
 - Tool: `PuLP` linear programming solver
 
 ---
-
-## Visualization
-
-- Generates a comparison chart of:
-  - Total churn risk before intervention
-  - Remaining churn risk after optimized retention efforts
 
 ### Dataset
 Source: Telco Customer Churn - Kaggle - https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
