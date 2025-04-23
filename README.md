@@ -34,6 +34,4 @@ Source: Telco Customer Churn - Kaggle - https://www.kaggle.com/datasets/blastcha
 
 ![image](https://github.com/user-attachments/assets/0f4a96de-823f-464b-8cb5-3e58e00288ce)
 ![image](https://github.com/user-attachments/assets/4104bb38-fe4e-4ba1-ad63-efe799a02d9d)
-![image](https://github.com/user-attachments/assets/fc681300-9664-47a4-93ca-7a279db2b20f)
-
 
