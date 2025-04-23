@@ -12,7 +12,7 @@
 ## Overview
 
 - Used Machine Learning to predict churn probabilities
-- Use Linear Programming to optimize which customers to retain under a fixed budget
+- Used Linear Programming to optimize which customers to retain under a fixed budget
 - Goal: Maximize retained revenue while staying within cost constraints (budget)
 
 ---
