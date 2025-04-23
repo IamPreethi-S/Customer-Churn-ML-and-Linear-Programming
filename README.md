@@ -4,7 +4,6 @@
 
 - This project was created as part of a hands-on learning series to explore how machine learning and optimization can be combined to solve real-world customer retention problems under business constraints
 
----
 
 ## Overview
 - This project combines Machine Learning (ML) and Linear Programming (LP) to predict and reduce customer churn using the Telco Customer Churn dataset.
@@ -12,7 +11,10 @@
 - Used Linear Programming to optimize which customers to retain under a fixed budget
 - Goal: Maximize retained revenue while staying within cost constraints (budget)
 
----
+
+## Dataset
+Source: Telco Customer Churn - Kaggle - https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
+
 
 ## ML Model
 
@@ -20,7 +22,6 @@
 - Output: Probability of churn (between 0 and 1)
 - Evaluation Metric: ROC AUC Score (to identify how effectively the model distinguishes "churn" vs "no churn")
 
----
 
 ## LP Optimization
 
@@ -29,7 +30,3 @@
 - Constraints: Stay within total retention **budget** (defined by business)
 - Tool: [`PuLP`](https://coin-or.github.io/pulp/) linear programming solver 
 
----
-
-### Dataset
-Source: Telco Customer Churn - Kaggle - https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
