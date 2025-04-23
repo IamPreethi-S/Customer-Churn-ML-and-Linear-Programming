@@ -28,5 +28,11 @@ Source: Telco Customer Churn - Kaggle - https://www.kaggle.com/datasets/blastcha
 - Decision: Which customers to offer retention efforts to
 - Objective: Maximize expected **retained revenue** = `churn_prob × revenue` for targeted customers
 - Constraints: Stay within total retention **budget** (defined by business)
-- Tool: [`PuLP`](https://coin-or.github.io/pulp/) linear programming solver 
+- Tool: [`PuLP`](https://coin-or.github.io/pulp/) linear programming solver
+
+## Snapshots (Simulated data for budget inorder to maximize the retention based on business constraints)
+
+![image](https://github.com/user-attachments/assets/0f4a96de-823f-464b-8cb5-3e58e00288ce)
+![image](https://github.com/user-attachments/assets/4104bb38-fe4e-4ba1-ad63-efe799a02d9d)
+
 
